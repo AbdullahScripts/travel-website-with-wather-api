@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel plan</title>
+    <link rel="stylesheet" href="output.css">
+
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="monkey.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+  />
+  <script
+    src="https://kit.fontawesome.com/b83b286aac.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Swiper -->
+  <link rel="stylesheet" href="assets/swiper/swiper-bundle.css" />
+  <link rel="stylesheet" href="assets/swiper/swiper.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+    rel="stylesheet"
+  />
+
+
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light mynavbar">
+          <div class="container py-3">
+            <div class="icon-div">
+              <a
+                class="navbar-brand nav-heading"
+                id="circle"
+                href="/index.html"
+              ></a>
+              <div class="wrapper">
+                <img src="assets/monkey.png" alt="" />
+              </div>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav ms-auto my-lg-0 navbar-nav-scroll"
+                style="--bs-scroll-height: 100px"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/dest.html"
+                    >Destination</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./form.html"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/weather.html"
+                    >weather</a
+                  >
+                </li>
+              </ul>
+             
+            </div>
+          </div>
+        </nav>
+      </header>
+
+    <div class=" max-w-[1320px] m-auto flex-col lg:flex-row flex md:flex-col" style="background-color: #f8f8f8; ">
+        <div class=" lg:max-w-[440px] px-1.5 py-1.5 lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl" style="color:#333333;"> Shortly About Us </p>
+            </div>
+            <div class="overflow-hidden pb-7 ">
+                <img src="img/about-img.jpg" alt="" class="hover:scale-125 duration-1000 cursor-pointer sm:w-50%"
+                    width="100%" height="100vh">
+            </div>
+            <p class="text-2xl pt-3 pb-4 px-1" style="color:#17d2d9;"> We are a team of observers.</p>
+            <p class="text-1xl px-1 pb-4" style="color:#333333;"> The sensitivity and natural intuition make our
+                creative photographers the perfect men for capturing your special moments. The thorough approach and
+                deep understanding of this form of art help enjoy each moment to the fullest. </p>
+            <div class="px-2 pb-3">
+                <button type="button"
+                    class="w-40 h-12 text-xl text-white bg-cyan-400  rounded-full pb-1 hover:bg-gray-500 duration-1000">Read
+                    More</button>
+            </div>
+        </div>
+        <div class=" lg:max-w-[440px] px-1.5 py-1.5  lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl" style="color:#333333;"> Useful Info </p>
+            </div>
+            <div class="flex pb-4">
+                <img src="img/portfolio.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="px-4 pb-4 text-cyan-400 text-2xl ">Mission Statement</p>
+                    <p class="text-lg lg:text-sm px-5" style="color:#333333;">Time is so fleeting. But it's nice to sit
+                        in the
+                        evening with loved ones and relive all of your important moments.</p>
+                </div>
+            </div>
+            <!-- two -->
+            <div class="flex pb-4">
+                <img src="img/target.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="px-4 pb-4 text-cyan-400 text-2xl ">Our Vision</p>
+                    <p class="text-lg lg:text-sm px-5" style="color:#333333;">Due to the growing technological progress
+                        we can send
+                        images to one another even when being far away.</p>
+                </div>
+            </div>
+            <!-- three-->
+            <div class="flex pb-4">
+                <img src="img/membership.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="px-4 pb-4 text-cyan-400 text-2xl ">Our Values</p>
+                    <p class="text-lg lg:text-sm px-5" style="color:#333333;">Individual selection of the image
+                        correctly exposed
+                        light and angle can show all the advantages of your state</p>
+                </div>
+            </div>
+        </div>
+        <div class=" lg:max-w-[440px] px-1.5 py-1.5  lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl" style="color:#333333;"> Advantages</p>
+            </div>
+            <p style="color:#333333;" class="text-base px-2 ">The future mother is a professional approach to detail.
+                Individual selection of the image correctly exposed light and angle can show all the advantages of your
+                wonderful state.</p>
+
+            <ul type="none" class="pt-6 pl-5 pb-2">
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Long term
+                        experience</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Collaboration with famous
+                        photographers</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Up-to-date
+                        equipment</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Thousands of satisfied
+                        clients</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Professional
+                        studio</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Personal approach to each
+                        customer</span>
+                </li>
+            </ul>
+            <p style="color:#333333;" class="text-base px-6 py-5 ">We love shooting in both black and white and color.
+                While capturing your precious moments we enjoy the way this form is art fills us with emotions.</p>
+        </div>
+    </div>
+    <!-- team -->
+    <div class=" max-w-[1320px] m-auto flex-col lg:flex-row flex md:flex-col" style="background-color: #17d2d9;">
+        <div class=" lg:max-w-[330px] px-1.5 py-1.5 lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl text-white"> Meet Our Team </p>
+            </div>
+            <div class="overflow-hidden pb-7 flex justify-center">
+                <img src="img/01.jpg" alt="" class="hover:scale-125 duration-1000 cursor-pointer " width="75%"
+                    height="50%">
+            </div>
+            <p class="text-2xl pt-3 pb-4 px-1 text-white hover:text-gray-700 cursor-pointer duration-500"> Mark Johnson
+            </p>
+            <p class="text-1xl px-1 pb-4 text-white"> Mark is a freelance and editorial photographer in addition to
+                shooting weddings and portraits. </p>
+        </div>
+        <!-- two -->
+        <div class=" lg:max-w-[330px] px-1.5 py-1.5 lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl text-white"> Meet Our Team </p>
+            </div>
+            <div class="overflow-hidden pb-7 flex justify-center">
+                <img src="img/02.jpg" alt="" class="hover:scale-125 duration-1000 cursor-pointer " width="75%"
+                    height="50%">
+            </div>
+            <p class="text-2xl pt-3 pb-4 px-1 text-white hover:text-gray-700 cursor-pointer duration-500">Olivia Grosh
+            </p>
+            <p class="text-1xl px-1 pb-4 text-white">Her personal work includes music and festival photography, travel
+                and
+                portraiture.</p>
+        </div>
+        <!-- three -->
+        <div class=" lg:max-w-[330px] px-1.5 py-1.5 lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl text-white"> Meet Our Team </p>
+            </div>
+            <div class="overflow-hidden pb-7 flex justify-center">
+                <img src="img/03.jpg" alt="" class="hover:scale-125 duration-1000 cursor-pointer " width="75%"
+                    height="50%">
+            </div>
+            <p class="text-2xl pt-3 pb-4 px-1 text-white hover:text-gray-700 cursor-pointer duration-500">Sam Kromstain
+            </p>
+            <p class="text-1xl px-1 pb-4 text-white">Assistant photographer supporting photographer in all aspects of
+                his work.</p>
+        </div>
+        <div class=" lg:max-w-[330px] px-1.5 py-1.5 lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl text-white"> Meet Our Team </p>
+            </div>
+            <div class="overflow-hidden pb-7 flex justify-center ">
+                <img src="img/04.jpg" alt="" class=" hover:scale-125 duration-1000 cursor-pointer  " width="75%"
+                    height="50%">
+            </div>
+            <p class="text-2xl pt-3 pb-4 px-1 text-white hover:text-gray-700 cursor-pointer duration-500">Jessica
+                Priston</p>
+            <p class="text-1xl px-1 pb-4 text-white">Specialization: pregnant photo shoot, family and childrens
+                photography.</p>
+        </div>
+    </div>
+    <!-- overview -->
+<div class=" max-w-[1320px] m-auto flex-col lg:flex-row flex md:flex-col" style="background-color: #f8f8f8; ">
+        <div class=" lg:max-w-[440px] px-1.5 py-1.5  lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl" style="color:#333333;"> Overview </p>
+            </div>
+            <div class="flex pb-4">
+                <img src="img/one.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="px-4 pb-4 text-cyan-400 text-2xl hover:text-gray-700 cursor-pointer duration-500">Professionalism</p>
+                    <p class="text-sm lg:text-base px-7" style="color:#333333;">Get ready for the top notch service,
+                        attention to every detail and fulfillment of every given task.</p>
+                </div>
+            </div>
+            <!-- two -->
+            <div class="flex pb-4">
+                <img src="img/two.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="px-4 pb-4 text-cyan-400 text-2xl hover:text-gray-700 cursor-pointer duration-500">Work done on time</p>
+                    <p class="text-sm lg:text-base px-7" style="color:#333333;">Feel certain about your photo project. I
+                        guarantee no delays and 100% quality photography you will be enjoyed with.</p>
+                </div>
+            </div>
+            <div class="flex pb-4">
+                <img src="img/002.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="px-4 pb-4 text-cyan-400 text-2xl hover:text-gray-700 cursor-pointer duration-500">Always in touch</p>
+                    <p class="text-sm lg:text-base px-7" style="color:#333333;">Call me anytime throughout a day, if you
+                        have any questions or suggestions. We will discuss every detail.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" lg:max-w-[440px] px-1.5 py-1.5  lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl" style="color:#333333;">Careers</p>
+            </div>
+            <p class="text-2xl pt-3 pb-4 px-1" style="color:#17d2d9;"> We are a team of observers.</p>
+            <p style="color:#333333;" class="text-sm lg:text-base px-2 py-4">The future mother is a professional approach to
+                detail.
+                Individual selection of the image correctly exposed light and angle can show all the advantages of your
+                wonderful state.</p>
+
+            <ul type="none" class="pt-6 pl-5 pb-2">
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Long term
+                        experience</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Collaboration with famous
+                        photographers</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Up-to-date
+                        equipment</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Thousands of satisfied
+                        clients</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Professional
+                        studio</span>
+                </li>
+                <li class="flex items-center pb-3">
+                    <img src="img/right-arrow.png" alt="" width="10px">
+                    <span class="text-sm pl-2 hover:text-cyan-400 cursor-pointer duration-500">Personal approach to each
+                        customer</span>
+                </li>
+            </ul>
+        </div>
+        <div class=" lg:max-w-[440px] px-1.5 py-1.5  lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+            <div class="py-2 lg:py-8">
+                <p class="text-3xl" style="color:#333333;"> Testimonials</p>
+            </div>
+            <div class="flex pb-4">
+                <img src="img/quote.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="text-sm lg:text-base px-4 pt-6" style="color:#333333;">Thank you for your photographs that capture so beautifully the emotion during this joyful time in our lives. We will treasure them. Lullaby Photography was such a wonderful experience for my baby and I. I was amazed at your professionalism.</p>
+                    <p class="text-2xl pt-5 pb-4 px-1" style="color:#17d2d9;">Patrick Pool</p>
+                </div>
+            </div>
+            <div class="flex pb-4">
+                <img src="img/quote.png" alt="" class="h-[100%] px-4">
+                <div>
+                    <p class="text-sm lg:text-base px-4 pt-6" style="color:#333333;">
+                        I was thoroughly impressed with the way you was able to work with our squirmy cat and get great results. Thank you very much! You are an excellent photographer with an artistic eye. Your warm personality made the whole photo shoot experience relaxed and fun.</p>
+                    <p class="text-2xl pt-5 pb-4 px-1" style="color:#17d2d9;">Jessica Priston</p>
+                </div>
+            </div>
+        
+      </div>
+</div>
+<!-- footer -->
+<div class=" max-w-[1320px] m-auto flex-col lg:flex-row flex md:flex-col" >
+    <div class=" lg:max-w-[660px] px-1.5 py-1.5  lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+        <div class="flex pb-4">
+            <img src="img/circle.png" alt="" class="h-[100%] px-4">
+            <div>
+                <p class=" px-10 lg:px-16 pb-4 text-cyan-400 text-2xl ">New York, 4578 Marmora Road,
+                    Glasgow D04 89GR</p>
+            </div>
+        </div>
+    </div>
+    <div class=" lg:max-w-[660px] px-1.5 py-1.5  lg:py-8 lg:px-5 md:py-5 md:px-3 sm:py-3 sm:px-2">
+        <div class="flex pb-4">
+            <img src="img/phone-call.png" alt="" class="h-[100%] px-4">
+            <div>
+                <p class="px-8 pb-1 text-cyan-400 text-2xl ">800-2345-6789; 800-2345-6790</p>
+                <p class="px-8 pb-4  text-base ">7 days a week from 8:00 am to 7:00 pm</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class=" max-w-[1320px] m-auto flex-col lg:flex-row flex md:flex-col" style="border-top:1px solid #b9aaaa;" >
+    <p class="text-sm pt-5 pb-4 px-1">Photonix © 2017.  
+        <span class="text-cyan-400">Privacy Policy</span>
+    </p>
+</div>
+
+<footer>
+    <div class="container-fluid" style="--bs-gutter-x: 0rem">
+      <div class="inner-footer-div">
+        <div class="row" style="--bs-gutter-x: 0rem">
+          <div class="col-md-3">
+            <div class="card social-card p-1 border-0" style="width: 100%">
+              <a
+                class="navbar-brand nav-heading footer-icon"
+                id="circle1"
+                href="#"
+              ></a>
+              <p>
+                "Embark on a journey of discovery with our travel website's
+                inviting homepage. Explore handpicked destinations, curated
+                experiences, and exclusive deals that cater to every
+                wanderlust. "
+              </p>
+              <div class="social-div">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-a-styling border-0" style="width: 100%">
+              <h4>Destinations</h4>
+              <ul class="list-group border-0">
+                <li class="list-group-item border-0">
+                  <a href=""> Africa</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Antarctica</a>
+                </li>
+                <li class="list-group-item border-0"><a href=""> Asia</a></li>
+                <li class="list-group-item border-0">
+                  <a href=""> Europe</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> America</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-a-styling border-0" style="width: 100%">
+              <h4>Shop</h4>
+              <ul class="list-group list-group-flush border-0">
+                <li class="list-group-item border-0">
+                  <a href=""> Destination Guides</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Pictorial & Gifts</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Special Offers</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Delivery Times</a>
+                </li>
+                <li class="list-group-item border-0"><a href=""> FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card card-a-styling border-0" style="width: 100%">
+              <h4>Interests</h4>
+              <ul class="list-group list-group-flush border-0">
+                <li class="list-group-item border-0">
+                  <a href=""> Adventure Travel</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Art And Culture</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Wildlife AndNature</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Family Holidays</a>
+                </li>
+                <li class="list-group-item border-0">
+                  <a href=""> Food And Drink</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card card-a-styling border-0" style="width: 100%">
+              <h4>Have a Questions?</h4>
+              <ul class="list-group list-group-flush border-0">
+                <li class="list-group-item border-0">
+                  <div class="footer-end-col">
+                    <i class="fa-solid fa-map"></i
+                    ><a href=""
+                      >district FSD,Tehsil Chak Jhumra </a
+                    >
+                  </div>
+                </li>
+                <li class="list-group-item border-0">
+                  <div class="footer-end-col">
+                    <i class="fa-solid fa-phone"></i
+                    ><a href=""> +92 344 6339 291</a>
+                  </div>
+                </li>
+                <li class="list-group-item border-0">
+                  <div class="footer-end-col">
+                    <i class="fa-solid fa-envelope"></i
+                    ><a href="">dev.mirxa009@gmail.com</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="contanier inner-container">
+            <h6>
+              Copyright © 2022 Thousand Sunny. All rights reserved By Muhammad
+              Abdullah
+            </h6>
+            <li>
+              <a href="">Privacy Policy</a> .
+              <a href="">Terms & Conditions</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+crossorigin="anonymous"
+></script>
+<script src="assets/swiper/swiper-bundle.js"></script>
+<script>
+var swiper = new Swiper(".swiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+</script>
+</body>
+</html>

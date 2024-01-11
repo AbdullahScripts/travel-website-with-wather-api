@@ -1,0 +1,18 @@
+.back-clr {
+    background-color: rgb(0, 0, 44);
+}
+
+.back-clr2 {
+    background-color: rgba(26, 26, 100, 0.836);
+}
+.contact-form{
+    max-height: 1000px;
+}
+.instructions{
+    max-height: 460px;
+}
+.button:hover{
+    color: black !important;
+    background-color: white !important;
+    transition: 0.2;
+}
